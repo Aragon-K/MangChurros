@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mang Churros</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h1 class="brand-name" id="brand-name">Mang Churros</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#roadmap">Road Map</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div style="width: 80%; margin: auto; background-color: #fefae0; text-align: center;">
+        <div class="menu-carousel">
+        <h1 id="offer">!CHUFERRS!</h1>   
+            <div class="menu-container">
+                <img id="menuImage" src="images/churros1.jpg" alt="Menu Item">
+                <div class="menu-description">
+                    <h2 id="menuTitle">Churros Classic</h2>
+                    <p id="menuText">Delicious crispy churros with a dusting of cinnamon sugar.</p>
+                </div>
+            </div>
+            <!-- <button class="prev" onclick="changeSlide(-1)">❮</button>
+            <button class="next" onclick="changeSlide(1)">❯</button> -->
+    </div>
+    <br><br><br><br> <br><br><br><br><br><br>
+    <section class="combined-list fade-in">
+        <h1 id="offer" class="fade-in">!CHUDIPPS!</h1>
+        <div class="list-wrapper">
+            <div class="list-section" id="sweetSection">
+                <h1 id="dipsTitle">SWEET DIPS</h1><br>
+                <div class="list">
+                    <div class="list-item sweet-border">
+                        <img src="dips/chocolate.jpg" alt="Chocolate">
+                        <p>Chocolate</p>
+                    </div>
+                    <div class="list-item sweet-border">
+                        <img src="dips/ube.jpg" alt="Ube">
+                        <p>Ube</p>
+                    </div>
+                    <div class="list-item sweet-border">
+                        <img src="dips/pandan.jpg" alt="Pandan">
+                        <p>Pandan</p>
+                    </div>
+                    <div class="list-item sweet-border">
+                        <img src="dips/caramel.jpg" alt="Caramel">
+                        <p>Caramel</p>
+                    </div>
+                    <div class="list-item sweet-border">
+                        <img src="dips/bavarian.jpg" alt="Bavarian Cream">
+                        <p>Bavarian Cream</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="list-section" id="savorySection" style="display: none;">
+                <h1 id="dipsTitle">SAVORY DIPS</h1><br>
+                <div class="list">
+                    <div class="list-item savory-border">
+                        <img src="dips/ketchup.jpg" alt="Ketchup">
+                        <p>Ketchup</p>
+                    </div>
+                    <div class="list-item savory-border">
+                        <img src="dips/garlic-mayo.jpg" alt="Garlic Mayo">
+                        <p>Garlic Mayo</p>
+                    </div>
+                    <div class="list-item savory-border">
+                        <img src="dips/ranch.jpg" alt="Ranch">
+                        <p>Ranch</p>
+                    </div>
+                    <div class="list-item savory-border">
+                        <img src="dips/chili-cheese.jpg" alt="Chili Cheese">
+                        <p>Chili Cheese</p>
+                    </div>
+                    <div class="list-item savory-border">
+                        <img src="dips/ketchup-mayo.jpg" alt="Ketchup Mayo">
+                        <p>Ketchup Mayo</p>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br>
+        <button id="toggleButton" onclick="toggleList()">Savory Sauces</button>
+    </section>
+    <br><br><br><br><br><br><br><br><br>
+     
+    <section class="history-section fade-in">
+        <h2 class="history-title">HISTORY</h2>
+        <div class="history-content">
+            <p>
+                In a small province in Pangasinan, Philippines.There is a man named Manuel who has an organic moringa farm. He loves his farm and works hard every day, knowing that moringa contains vitamins A, C, B1, B2, B3, B6, and many minerals that can be beneficial for Manuel and Guay's health.
+            </p>
+            <p>
+                His wife's favorite dessert was churros, but sadly, at the age of 45, Guay is not allowed to eat sweets due to a medical condition. Since then, Manuel has been thinking about how to make his wife happy so that even though she has a condition, she can still eat her favorite churros.Manuel wondered if he could create something special using his moringa leaves. Excited, he went home to experiment, mixing the nutritious leaves into a dough.
+            </p>
+            <p>
+                After several tries, Manuel finally made his perfect moringa churros. They were crispy on the outside and soft on the inside, with a hint of the earthy flavor of moringa. He surprised his wife, who loves the taste of churros, with the unique combination of moringa. His wife encouraged him to sell the churros at the local market.People from all over Leyte came to taste his unique creation. They not only enjoyed the delightful treat but also learned about the health benefits of moringa and how the packaging was eco-friendly because he was using wooden fork, banana leaves, and paper cup from Green Origin PH, instead of using plastics.
+            </p>
+            <p>
+                Manuel promotes alternative packaging options to help manage the waste problems in the Philippines. As word spread about Manuel's moringa churros, his little stand became popular, and with that, he now has several branches in the Leyte and Manila. His main branch in Manila was built at Unit G GF Ma. Cristina Building, 103 Samson Road, Corner UE Tech, Caloocan, 1408 Metro Manila. For the reason that it's near to the target customers. Manuel felt proud to bring something new to Leyte while promoting sustainable packaging choices and healthy eating. This little idea of making churros grew into a big success, transforming his life and the way people viewed moringa in their diets.
+            </p>
+        </div>
+    </section>
+    <br><br> <br><br><br><br><br><br>
+    <section class="ingredients-list fade-in">
+        <h3 class="ingredients-title">INGREDIENTS</h3>
+        <div class="ingredients-container">
+            <div class="ingredient-item">
+                <img src="ingredients/malunggay.jpg" alt="Malunggay leaves">
+                <h4>Malunggay leaves</h4>
+            </div>
+            <div class="ingredient-item">
+                <img src="ingredients/water.jpg" alt="Water">
+                <h4>Water</h4>
+            </div>
+            <div class="ingredient-item">
+                <img src="ingredients/flour.jpg" alt="All purpose flour">
+                <h4>All purpose flour</h4>
+            </div>
+            <div class="ingredient-item">
+                <img src="ingredients/salt.jpg" alt="Salt">
+                <h4>Salt</h4>
+            </div>
+            <div class="ingredient-item">
+                <img src="ingredients/sugar.jpg" alt="Sugar">
+                <h4>Sugar</h4>
+            </div>
+            <div class="ingredient-item">
+                <img src="ingredients/garlic-powder.jpg" alt="Garlic powder">
+                <h4>Garlic powder</h4>
+            </div>
+            <div class="ingredient-item">
+                <img src="ingredients/pepper.jpg" alt="Ground white pepper">
+                <h4>Ground white pepper</h4>
+            </div>
+            <div class="ingredient-item">
+                <img src="ingredients/butter.jpg" alt="Unsalted butter">
+                <h4>Unsalted butter</h4>
+            </div>
+            <div class="ingredient-item">
+                <img src="ingredients/oil.jpg" alt="Oil">
+                <h4>Oil</h4>
+            </div>
+        </div>
+    </section>
+    <br><br> <br><br><br><br><br><br>
+    <section class="procedure fade-in">
+        <h2>PROCEDURE</h2>
+        <div class="procedure-container">
+            <div id="step-content" class="step-content">
+                <!-- Step content will be inserted here via JS -->
+            </div>
+            <div class="procedure-buttons">
+                <button id="prev-btn" onclick="prevStep()">Previous</button>
+                <button id="next-btn" onclick="nextStep()">Next</button>
+            </div>
+        </div>
+    </section>
+    
+    <br><br>
+    <div class="videodiv fade-in">
+        <div class="video-container">
+            <h1>VIDEO MONTAGE</h1>
+            <br>
+            <video controls>
+                <source src="videos/sample.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <br><br>
+    <!-- <section class="rewards fade-in">
+        <div class="rewards-text">
+            <h3 class="rewards-title">BACKGROUND</h3><br>
+            <p>Unlock Rewards with your first order. Enjoy a free handcrafted drink when you make a qualifying purchase during your first week as a Starbucks® Rewards member.*</p>
+        </div>
+        <div>
+            <img src="images/churros1.jpg" alt="Churros">
+        </div>
+    </section> -->
+    <br><br>
+    <br><br>
+    <hr id="roadmap">
+    <br><br>
+    <div class="map-container">
+        <h2>ROAD MAP</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.9464259508986!2d120.97686469999998!3d14.658981800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b433cd70f587%3A0xc23c5e0b2614f4ab!2sUniversity%20of%20the%20East%20Caloocan!5e0!3m2!1sen!2sph!4v1741492772079!5m2!1sen!2sph" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+    </div>
+    <br><br><br><br>
+    <hr>
+        <br><br>
+        <hr><br>
+        <br><br>
+        <hr>
+        <section class="mission-vision fade-in">
+            <div class="mission-vision-wrapper">
+                <h1>ABOUT US</h1>
+                <!-- Vision Section -->
+                <div class="mission-vision-item vision">
+                    <h2>VISION</h2>
+                    <p>Our vision is to make Malunggay Churros a beloved and healthy snack across the Philippines, 
+                        combining tradition and innovation. We aim to bring delicious, nutritious treats to every Filipino 
+                        while supporting local farmers and communities. Our vision is to make Malunggay Churros a beloved and
+                        healthy snack across the Philippines, combining tradition and innovation. Our goal is to make Malunggay 
+                        Churros a go-to snack for Filipinos of all ages, offering a perfect balance of taste and nutrition. 
+                        We envision our brand being present in homes, schools, cafés, and markets nationwide, bringing people together
+                        through delicious and healthy treats. Through continuous innovation and dedication, we aim to grow our business 
+                        while uplifting local farmers and promoting sustainable practices in the food industry.
+                    </p>
+                </div>
+        
+                <!-- Mission Section -->
+                <div class="mission-vision-item mission">
+                    <h2>MISSION</h2>
+                    <p>Our mission is to give a delicious, healthy twist to the classic churros by infusing malunggay (moringa) goodness into every bite. We are committed to offering a novel and distinctive food experience that appeals to a broad range of consumers, including those who typically avoid vegetables. Through our malunggay churros, we aim to satisfy cravings while providing significant nutritional benefits, making every churro moment a nourishing and enjoyable one. We will achieve this by creating high-quality, consistently delicious products and building a strong brand presence that champions healthy indulgence. We strive to become a leader in the healthy snacking market, demonstrating that delicious and nutritious can coexist seamlessly.
+                    </p>
+                </div>
+            </div>
+        </section>        
+        <hr><br>
+        <br><br>
+        <hr>
+        <section class="core-values fade-in">
+            <h2 class="core-values-title">CORE VALUES</h2>
+            <div class="core-values-wrapper">
+                <!-- Christ-Centred -->
+                <div class="core-value-item">
+                    <h3>Christ Centred</h3>
+                    <p><em>Colossians 3:23 (NIV)</em></p>
+                    <blockquote>
+                        "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters."
+                    </blockquote>
+                    <p>
+                        It implies that living for the Lord's honor makes a difference through our teamwork and customer care. There are so many businesses that offer churros out there, but if you choose us, we do not take this for granted. Above all, placing our customers at the center of everything we do ensures that we exceed their expectations and shape a positive experience for our customers because we know that we work for God's honor.
+                    </p>
+                </div>
+        
+                <!-- Health -->
+                <div class="core-value-item">
+                    <h3>Health</h3>
+                    <p>
+                        The core values of our churros with moringa reflect our commitment to bringing healthy food.  
+                        Mang Churros believes in using natural ingredients that not only satisfy sweet cravings but also offer nutritional benefits. Malunggay contains vitamins A, C, B1, B2, B3, B6, and many minerals that can be beneficial for adolescent growth, immunity, and energy levels.
+                    </p>
+                </div>
+        
+                <!-- Eco-friendly -->
+                <div class="core-value-item">
+                    <h3>Eco-friendly</h3>
+                    <p>
+                        As a company that promotes environmental safety, we have also partnered with "Green Origin PH," a company that aligns with our core values. Mang Churros will be using eco-friendly packaging made from recycled materials. By promoting healthy eating habits and supporting suppliers of eco-friendly food packaging, our values extend beyond selling our churros with moringa. We want to foster connections among our customers and encourage them to appreciate the benefits of reducing plastic waste by choosing Mang Churros.
+                    </p>
+                </div>
+        
+                <!-- Innovation -->
+                <div class="core-value-item">
+                    <h3>Innovation</h3>
+                    <p>
+                        Innovation is another core value in our business. We constantly explore other dips for our Mang Churros (moringa with churros). By blending traditional techniques with modern twists, using two different types of dips (savory and sweet), we engage with our customers and understand their preferences better. We invite feedback and suggestions to adapt our flavors. Ultimately, our dedication to innovation reflects our passion for providing memorable desserts that everyone can love and enjoy responsibly.
+                    </p>
+                </div>
+            </div>
+        </section>        
+        <hr><br>
+    </div>
+    <br><br>
+     <br><br><br>
+    <section id="contact" class="social-links">
+        <h1>CONTACT US</h1><br>
+        <div class="social-item">
+            <img src="sociallogo/facebook-icon.png" alt="Facebook">
+            <a href="https://facebook.com/yourpage" target="_blank">Facebook</a>
+        </div>
+        <div class="social-item">
+            <img src="sociallogo/messenger-icon.png" alt="Messenger">
+            <a href="https://m.me/yourpage" target="_blank">Messenger</a>
+        </div>
+        <div class="social-item">
+            <img src="sociallogo/instagram-icon.png" alt="Instagram">
+            <a href="https://instagram.com/yourpage" target="_blank">Instagram</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Mang Churros</p>
+    </footer>
+    <!-- dips -->
+    <script>
+        let sweetIndex = 0;
+        let savoryIndex = 0;
+
+        const sweetNames = ["Chocolate", "Ube", "Pandan", "Caramel", "Bavarian Cream"];
+        const savoryNames = ["Ketchup", "Garlic Mayo", "Ranch", "Chili Cheese", "Ketchup Mayo"];
+
+        // Initialize carousels on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            // Reset transforms to ensure first image is showing
+            document.querySelector("#sweetCarousel").style.transform = "translateX(0%)";
+            document.querySelector("#savoryCarousel").style.transform = "translateX(0%)";
+            
+            // Set initial name values
+            document.getElementById("sweetName").innerText = sweetNames[0];
+            document.getElementById("savoryName").innerText = savoryNames[0];
+        });
+
+        function updateSweetCarousel() {
+            const slides = document.querySelector("#sweetCarousel");
+            const totalSlides = slides.children.length;
+
+            // Right to left motion (decrease index)
+            sweetIndex--;
+            if (sweetIndex < 0) sweetIndex = totalSlides - 1;
+
+            slides.style.transform = `translateX(-${sweetIndex * 100}%)`;
+            document.getElementById("sweetName").innerText = sweetNames[sweetIndex];
+        }
+
+        function updateSavoryCarousel() {
+            const slides = document.querySelector("#savoryCarousel");
+            const totalSlides = slides.children.length;
+
+            // Left to right motion (increase index)
+            savoryIndex++;
+            if (savoryIndex >= totalSlides) savoryIndex = 0;
+
+            slides.style.transform = `translateX(-${savoryIndex * 100}%)`;
+            document.getElementById("savoryName").innerText = savoryNames[savoryIndex];
+        }
+
+        // Reset intervals whenever a manual navigation occurs
+        function resetIntervals() {
+            clearInterval(sweetInterval);
+            clearInterval(savoryInterval);
+            
+            sweetInterval = setInterval(updateSweetCarousel, 3000);
+            savoryInterval = setInterval(updateSavoryCarousel, 3000);
+        }
+
+        // Start intervals after a slight delay to ensure DOM is fully loaded
+        let sweetInterval, savoryInterval;
+        
+        setTimeout(function() {
+            sweetInterval = setInterval(updateSweetCarousel, 3000);
+            savoryInterval = setInterval(updateSavoryCarousel, 3000);
+        }, 500);
+    </script>
+    <script>
+    let isSweetShowing = true;
+
+    function toggleList() {
+        const sweetSection = document.getElementById('sweetSection');
+        const savorySection = document.getElementById('savorySection');
+        const toggleButton = document.getElementById('toggleButton');
+
+        if (isSweetShowing) {
+            sweetSection.style.display = 'none';
+            savorySection.style.display = 'flex';
+            toggleButton.textContent = 'Sweet Sauces';
+            toggleButton.style.backgroundColor = '#A0522D';
+            toggleButton.style.borderColor = '#A0522D';
+        } else {
+            sweetSection.style.display = 'flex';
+            savorySection.style.display = 'none';
+            toggleButton.textContent = 'Savory Sauces';
+            toggleButton.style.backgroundColor = '#8B4513';
+            toggleButton.style.borderColor = '#8B4513';
+        }
+
+        isSweetShowing = !isSweetShowing;
+    }
+        
+    </script>
+        <!-- ingredients -->
+        <script>
+            let ingredientIndex = 0;
+            
+            function updateIngredientsCarousel() {
+                const slides = document.querySelector("#ingredientsCarousel");
+                const totalSlides = slides.children.length;
+            
+                ingredientIndex++;
+                if (ingredientIndex >= totalSlides) ingredientIndex = 0;
+            
+                slides.style.transform = `translateX(-${ingredientIndex * 100}%)`;
+            }
+            
+            function moveIngredientSlide(n) {
+                const slides = document.querySelector("#ingredientsCarousel");
+                const totalSlides = slides.children.length;
+            
+                ingredientIndex += n;
+                if (ingredientIndex < 0) ingredientIndex = totalSlides - 1;
+                if (ingredientIndex >= totalSlides) ingredientIndex = 0;
+            
+                slides.style.transform = `translateX(-${ingredientIndex * 100}%)`;
+            }
+            
+            setInterval(updateIngredientsCarousel, 3000);
+            </script>
+        <!-- procedure -->
+        <script>
+            const steps = [
+                "Prepare malunggay leaves and chop in mince.",
+                "Add water to the pan and add salt, sugar, white ground pepper, garlic powder and mix well together.",
+                "Add unsalted butter and turn on in medium-low heat, wait until it boils.",
+                "When it starts to boil, add all-purpose flour (sifted). Continue stirring until the dough becomes consistent.",
+                "Keep on low heat and continue stirring until the white color of flour is gone.",
+                "When you reach the perfect consistency, remove from heat.",
+                "Transfer to a mixing bowl, slightly cool down, then add large eggs gradually and mix well.",
+                "Add minced malunggay leaves and mix using hands.",
+                "Transfer into a piping bag with a large piping tip. Pipe out about 2 inches of dough and cut using scissors.",
+                "Preheat oil in medium-low heat. Cook for a few minutes or until golden brown.",
+                "Flip to cook evenly after a few minutes or until golden brown."
+            ];
+        
+            let currentStep = 0;
+        
+            function updateStep() {
+                document.getElementById('step-content').innerHTML = `${currentStep + 1}. ${steps[currentStep]}`;
+                document.getElementById('prev-btn').disabled = currentStep === 0;
+                document.getElementById('next-btn').disabled = currentStep === steps.length - 1;
+            }
+        
+            function nextStep() {
+                if (currentStep < steps.length - 1) {
+                    currentStep++;
+                    updateStep();
+                }
+            }
+        
+            function prevStep() {
+                if (currentStep > 0) {
+                    currentStep--;
+                    updateStep();
+                }
+            }
+        
+            // Initialize first step on page load
+            document.addEventListener('DOMContentLoaded', updateStep);
+        </script>
+        
+        <!-- back2topbtn  -->
+        <script>
+            window.onscroll = function() {
+                showBackToTop();
+            };
+            
+            function showBackToTop() {
+                let btn = document.getElementById("backToTopBtn");
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    btn.style.display = "block"; 
+                } else {
+                    btn.style.display = "none";
+                }
+            }
+            
+            function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+        </script>
+        <!-- menu -->
+        <script>
+            let menuIndex = 0;
+            
+            const menuItems = [
+                    {
+                        image: "images/churros1.jpg",
+                        title: "Churros Classic",
+                        description: "Delicious crispy churros."
+                    },
+                    {
+                        image: "images/churros22.jpg",
+                        title: "Churros Classic",
+                        description: "Delicious crispy churros."
+                    },
+                    {
+                        image: "images/churros33.jpg",
+                        title: "Churros Classic",
+                        description: "Delicious crispy churros."
+                    },
+                    {
+                        image: "images/churros4.jpg",
+                        title: "Churros Classic",
+                        description: "Delicious crispy churros."
+                    },
+                    {
+                        image: "images/churros5.jpg",
+                        title: "Churros Classic With Chocolate Dip",
+                        description: "Delicious crispy churros with chocolate dip."
+                    },
+                    {
+                        image: "images/churros6.jpg",
+                        title: "Churros Classic With Chocolate Dip",
+                        description: "Delicious crispy churros with chocolate dip."
+                    }
+                ];
+                        
+            function updateMenu() {
+                console.log("Current Image Path: ", menuItems[menuIndex].image); // Debugging
+                document.getElementById("menuImage").src = menuItems[menuIndex].image;
+                document.getElementById("menuTitle").innerText = menuItems[menuIndex].title;
+                document.getElementById("menuText").innerText = menuItems[menuIndex].description;
+            }
+            
+            function changeSlide(n) {
+                menuIndex += n;
+                if (menuIndex < 0) menuIndex = menuItems.length - 1;
+                if (menuIndex >= menuItems.length) menuIndex = 0;
+                updateMenu();
+            }
+            
+           
+            setInterval(() => changeSlide(1), 3000);
+            </script>
+            <!-- rewards -->
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    const fadeElements = document.querySelectorAll(".fade-in");
+
+                    function checkVisibility() {
+                        fadeElements.forEach(element => {
+                            const rect = element.getBoundingClientRect();
+                            const windowHeight = window.innerHeight;
+
+                            if (rect.top < windowHeight * 0.9 && rect.bottom > 0) {
+                                element.classList.add("visible"); 
+                            } else {
+                                element.classList.remove("visible"); 
+                            }
+                        });
+                    }
+
+                    window.addEventListener("scroll", checkVisibility);
+                    checkVisibility(); 
+                });
+            </script>
+
+            
+            
+        
+        <button onclick="scrollToTop()" id="backToTopBtn">↑</button>
+</body>
+</html>
